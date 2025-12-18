@@ -14,7 +14,10 @@ DEBUG_INFO = True
 # change this value for a different result
 my_str = "Hello this Is an Example With cased letters"
 # uncomment to take input from the user
-my_input = input("Enter a string: ").lower()
+if not DEBUG_INFO:
+   my_input = input("Enter a string: ").lower()
+else:
+   my_input ="Ich bin ein ganzer Satz!"
 
 # You may want to execute sort function on all lower cased words
 my_str_lower = my_str.lower()
@@ -29,10 +32,13 @@ else:
 # breakdown the string into a list of words
 words = my_str_lower.split()
 
+# sort the words here -> add your code
+
+
 if DEBUG_INFO:
-   print(my_str)
    print("Initial unsorted words:") 
-   print(words)
+   print(my_str)
+
 
 # sort the list
 
