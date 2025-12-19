@@ -1,9 +1,21 @@
+# Bitte noch folgende Module installieren
+# pip install matplotlib
+# pip install openpyxl
 import pandas as pd
 
 df = pd.read_csv('Data_dup.csv')
 #df = pd.read_excel('Data_dup3.xlsx')
 
 print(df)
+
+
+
+
+
+
+
+
+
 df.dropna(inplace = True)
 
 print(df)
