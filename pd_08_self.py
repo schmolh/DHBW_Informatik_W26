@@ -14,5 +14,4 @@ print(df[df['attempts'] > 2])
 
 # 1. erzeuge ein DataFrame df_new mit den Datensätzen  ['attempts'] < 3
 
-
 # 2. Geben sie die Anzahl der Datensätze aus -> Anzahl 7

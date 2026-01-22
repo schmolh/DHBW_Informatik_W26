@@ -29,8 +29,7 @@ print(df)
 
 # 2. Schaue mit einer for Schleife ob sich 'James' in der neuen df_new befindet?
 
-for index, row in df.iterrows():
-    print(index)
+
 
 
 
